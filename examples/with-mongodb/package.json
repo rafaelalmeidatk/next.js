@@ -1,5 +1,5 @@
 {
-  "name": "with-mongodb",
+  "name": "withmongodb-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "mongoose": "^5.9.9",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
