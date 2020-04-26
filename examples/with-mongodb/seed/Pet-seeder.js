@@ -35,15 +35,15 @@ var pets = [
         dislikes: ["soap", "getting wet", "low temperature", "nail cutting"]
     }),
     new Pet({
-        name: "Charle",
+        name: "Charlie",
         owner_name: "Michelle", 
-        species: "",
-        age: 0,
-        poddy_trained: false,
-        diet: [""],
-        image_url: "",
-        likes: [""],
-        dislikes: [""]
+        species: "Dog",
+        age: 9,
+        poddy_trained: true,
+        diet: ["Sweet Potato", "Rabbit & Potato dry food", "Melon", "Carrots"],
+        image_url: "https://commons.wikimedia.org/wiki/File:Charlie_April_2020.jpg",
+        likes: ["Cuddling in the morning", "New places to pee", "Going to pet stores", "Sunbathing"],
+        dislikes: ["Not being greeted", "Watching others eat", "Oral medication", "Showers", "Brushing his teeth","Cuddling at night"]
     }),
     
 ];
