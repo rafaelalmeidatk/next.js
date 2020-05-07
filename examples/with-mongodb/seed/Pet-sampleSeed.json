@@ -39,9 +39,9 @@
         "age": 9,
         "poddy_trained": true,
         "diet": ["Sweet Potato", "Rabbit & Potato dry food", "Melon", "Carrots"],
-        "image_url": "https://commons.wikimedia.org/wiki/File:Charlie_April_2020.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Charlie_April_2020.jpg/588px-Charlie_April_2020.jpg?fbclid=IwAR3LAl0Ihq8oJnCu7JPkwoc4aasjyDhjim8ZVWG9JhATZrxR3RKPnLk_A2M",
         "likes": ["Cuddling in the morning", "New places to pee", "Going to pet stores", "Sunbathing"],
-        "dislikes": ["Not being greeted", "Watching others eat", "Oral medication", "Showers", "Brushing his teeth","Cuddling at night"]
+        "dislikes": ["Cuddling at night","Not being greeted", "Watching others eat", "Showers", "Brushing his teeth"]
     
 	}
 ]
