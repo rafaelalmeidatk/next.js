@@ -44,5 +44,18 @@
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Tired_20-year-old_cat.jpg",
         "likes": ["Taking naps", "being clean","clawing","scratching"],
         "dislikes": ["soap", "getting wet", "low temperature", "nail cutting"]
+	},
+	{
+	"name": "Charlie",
+        "owner_name": "Michelle", 
+        "species": "Dog",
+        "age": 9,
+        "poddy_trained": true,
+        "diet": ["Sweet Potato", "Rabbit & Potato dry food", "Melon", "Carrots"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Charlie_April_2020.jpg/588px-Charlie_April_2020.jpg?fbclid=IwAR3LAl0Ihq8oJnCu7JPkwoc4aasjyDhjim8ZVWG9JhATZrxR3RKPnLk_A2M",
+        "likes": ["Cuddling in the morning", "New places to pee", "Going to pet stores", "Sunbathing"],
+        "dislikes": ["Cuddling at night","Not being greeted", "Watching others eat", "Showers", "Brushing his teeth"]
+    
+
 	}
 ]
