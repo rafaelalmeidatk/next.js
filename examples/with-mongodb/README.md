@@ -2,6 +2,8 @@
 
 Description
 
+
+
 ## Deploy your own
 
 Deploy the example using [ZEIT Now](https://zeit.co/now):
@@ -19,6 +21,10 @@ npm init next-app --example with-mongodb with-mongodb-app
 # or
 yarn create next-app --example with-mongodb with-mongodb-app
 ```
+
+### Connect MongoDB to the application
+
+Please see the [steps](./link-steps.md) on how to connect MongoDB to your application
 
 ### Download manually
 
