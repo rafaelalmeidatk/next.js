@@ -26,6 +26,10 @@ yarn create next-app --example with-mongodb with-mongodb-app
 
 Please see the [steps](./link-steps.md) on how to connect MongoDB to your application
 
+### Import sample seed data to your MongoDB
+
+Please see the [steps](./data_import.md) on importing sample seed data into your MongoDB
+
 ### Download manually
 
 Download the example:
