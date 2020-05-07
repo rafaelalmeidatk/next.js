@@ -1,4 +1,4 @@
-### Importing sample seed data to your MongoDB
+### Installing Mongo Compass
 
 1. Log in to your account on [MongoDB](https://www.mongodb.com/)
 1. Under "Clusters" 
@@ -7,7 +7,7 @@
 1. Click on "I do not have MongoDB Compass" (If you have previously downloaded and installed MongoDB Compass you can skip to next step)
     1. Following the instruction, download and install Mongo Compass
 
-### After installing Mongo Compass
+### Connect to your Mongodb with Mongo Compass
 
 1. Open Mongo Compass
 1. Copy the connection string on the webpage below the installation guide in "Connect to Cluster"
@@ -28,4 +28,4 @@
     1. Select "JSON" as the input file type
 1. Click on "Import"
 
-### You have successfully imported the sample seed data into your MongoDB!
+### You have now successfully imported the sample seed data into your MongoDB!
