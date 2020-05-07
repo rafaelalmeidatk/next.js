@@ -1,4 +1,17 @@
 [
+        
+        {
+        "name": "Charlie",
+        "owner_name": "Michelle", 
+        "species": "Dog",
+        "age": 9,
+        "poddy_trained": true,
+        "diet": ["Sweet Potato", "Rabbit & Potato dry food", "Melon", "Carrots"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Charlie_April_2020.jpg",
+        "likes": ["Cuddling in the morning", "New places to pee", "Going to pet stores", "Sunbathing"],
+        "dislikes": ["Not being greeted", "Watching others eat", "Oral medication", "Showers", "Brushing his teeth","Cuddling at night"]
+        
+        },
 	{
         "name": "Fishy",
         "owner_name": "Liulan",
@@ -43,5 +56,6 @@
         "likes": ["Cuddling in the morning", "New places to pee", "Going to pet stores", "Sunbathing"],
         "dislikes": ["Cuddling at night","Not being greeted", "Watching others eat", "Showers", "Brushing his teeth"]
     
+
 	}
 ]
