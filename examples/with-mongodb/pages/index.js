@@ -1,53 +1,59 @@
-import Link from 'next/link';
+import Link from 'next/link'
 import fetch from 'isomorphic-unfetch' //alternative dbconnect into getStaticProps??
-import { Button, Card, Image } from 'semantic-ui-react';
 
-/* Displays the homepage, which consists of pet cards*/
 const Index = ({ pets }) => {
   return (
-    <div className="notes-container">
-      <h1>Pets</h1>
-      <div className="grid wrapper">
-        {pets.map( pet => { return (
-          <div key={pet._id}>
-            {/* Instances of pet card */}
-            <Card>
-              <Image src={pet.image_url} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>{pet.name}</Card.Header>
-                <Card.Meta>
-                  <span className='owner'>Owner: {pet.owner_name}</span>
-                </Card.Meta>
-                <Card.Description>
-                  {/* May be a good idea to display all info on pets*/}
-                  {pet.likes.map(s => <span key={s}>{s} </span>)}
-                </Card.Description>
-              </Card.Content>
-              <Card.Content extra>
-                <div>
-                  <Link href={`/${pet._id}/edit`}>
-                    <Button basic color='green'>Edit</Button>
-                  </Link>
-                  <Link href={`/${pet._id}`}>
-                    <Button basic color='red'>Delete</Button>
-                  </Link>
-                </div>
+    <>
+      {/* Create a card for each pet */}
+      {pets.map(pet => (
+        <div key={pet._id}>
+          <div className="card">
+            <img src={pet.image_url} />
+            <div className="main-content">
+              <h5 className="pet-name">{pet.name}</h5>
+              <p className="owner">Owner: {pet.owner_name}</p>
 
-              </Card.Content>
-            </Card>
+              {/* Extra Pet Info: Likes and Dislikes */}
+              <div className="likes info">
+                <p className="label">Likes</p>
+                <ul>
+                  {pet.likes.map((data, index) => (
+                    <li key={index}>{data} </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="dislikes info">
+                <p className="label">Dislikes</p>
+                <ul>
+                  {pet.dislikes.map((data, index) => (
+                    <li key={index}>{data} </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Buttons */}
+            <div className="btn-container">
+              <Link href={`/${pet._id}/edit`}>
+                <button className="btn edit">Edit</button>
+              </Link>
+              <Link href={`/${pet._id}`}>
+                <button className="btn delete">Delete</button>
+              </Link>
+            </div>
           </div>
-        )})}
-      </div>
-    </div>
+        </div>
+      ))}
+    </>
   )
 }
 
 /* Retrieves pet(s) data from mongodb database */
 Index.getInitialProps = async () => {
-  const res = await fetch('http://localhost:3000/api/pets');
-  const { data } = await res.json();
+  const res = await fetch('http://localhost:3000/api/pets')
+  const { data } = await res.json()
 
   return { pets: data }
 }
 
-export default Index;
+export default Index
