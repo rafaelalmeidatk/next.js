@@ -9,8 +9,9 @@ const Index = ({ pets }) => {
         <div key={pet._id}>
           <div className="card">
             <img src={pet.image_url} />
+            <h5 className="pet-name">{pet.name}</h5>
             <div className="main-content">
-              <h5 className="pet-name">{pet.name}</h5>
+              <p className="pet-name">{pet.name}</p>
               <p className="owner">Owner: {pet.owner_name}</p>
 
               {/* Extra Pet Info: Likes and Dislikes */}
@@ -30,16 +31,15 @@ const Index = ({ pets }) => {
                   ))}
                 </ul>
               </div>
-            </div>
-
-            {/* Buttons */}
-            <div className="btn-container">
-              <Link href={`/${pet._id}/edit`}>
-                <button className="btn edit">Edit</button>
-              </Link>
-              <Link href={`/${pet._id}`}>
-                <button className="btn delete">Delete</button>
-              </Link>
+              {/* Buttons */}
+              <div className="btn-container">
+                <Link href={`/${pet._id}/edit`}>
+                  <button className="btn edit">Edit</button>
+                </Link>
+                <Link href={`/${pet._id}`}>
+                  <button className="btn delete">Delete</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
