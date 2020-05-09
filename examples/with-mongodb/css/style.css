@@ -168,17 +168,17 @@ li {
 }
 
 /* Add Pet Page */
-#add-pet-form {
+form {
   width: 90%;
   margin: auto;
   max-width: 550px;
 }
 input,
-button,
+form button,
 label {
   display: block;
 }
-button,
+form button,
 input,
 textarea {
   outline: none;
@@ -199,7 +199,7 @@ textarea {
 label {
   margin-top: 10px;
 }
-button {
+form button {
   --accent: rgb(0, 162, 255);
   margin-top: 20px;
 }
