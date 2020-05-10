@@ -1,14 +1,11 @@
-# MongoDB + Next.js Example
+# Pet Care application using MongoDB and Next.js 
 
-Description
+This example shows how to create an application using Next.js and MongoDB.
 
+## Demo
 
+//we will put the link here after we deploy it
 
-## Deploy your own
-
-Deploy the example using [ZEIT Now](https://zeit.co/now):
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-mongodb)
 
 ## How to use
 
@@ -22,24 +19,15 @@ npm init next-app --example with-mongodb with-mongodb-app
 yarn create next-app --example with-mongodb with-mongodb-app
 ```
 
-### Connect MongoDB to the application
+### Step 1. Connect MongoDB to the application
 
 Please see the [steps](./link-steps.md) on how to connect MongoDB to your application
 
-### Import sample seed data to your MongoDB
+### Step 2. Import sample seed data to your MongoDB
 
 Please see the [steps](./data_import.md) on importing sample seed data into your MongoDB
 
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-mongodb
-cd with-mongodb
-```
-
-Install it and run:
+### Install it and run:
 
 ```bash
 npm install
