@@ -1,6 +1,6 @@
 // import App from 'next/app'
-import 'semantic-ui-css/semantic.min.css'
 import '../css/style.css'
+import '../css/form.css'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
             <a>Add Pet</a>
           </Link>
         </div>
-        <h1>Pets</h1>
+        <h1 id="title">Pets</h1>
       </div>
 
       <div className="grid wrapper">
