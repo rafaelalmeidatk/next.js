@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.form-container{
+    width: 400px;
+    margin: 20px auto;
+}
+
+.pet-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: auto;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "with-mongodb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "3.0.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.10",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "semantic-ui-css": "2.4.1",
+    "semantic-ui-react": "0.88.2"
+  },
+  "description": "Description",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}
