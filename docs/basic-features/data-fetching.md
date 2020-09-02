@@ -406,7 +406,7 @@ export default Post
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="https://static-tweet.now.sh">Static generation of a large number of pages</a></li>
+    <li><a href="https://static-tweet.now.sh">Static generation of a large number of pages</a> (<a href="https://github.com/lfades/static-tweet/blob/master/pages/%5Btweet%5D.js">Source code</a>)</li>
   </ul>
 </details>
 
